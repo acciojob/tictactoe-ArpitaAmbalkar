@@ -18,8 +18,8 @@ const wins = [
 
 submitBtn.addEventListener('click', () => {
 
-  player1 = document.getElementById('player-1').value || "Player 1";
-  player2 = document.getElementById('player-2').value || "Player 2";
+  player1 = document.getElementById('player1').value || "Player 1";
+  player2 = document.getElementById('player2').value || "Player 2";
   currentPlayer = player1;
 
   message.textContent = `${currentPlayer}, you're up!`;
